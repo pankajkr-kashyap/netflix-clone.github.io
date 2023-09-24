@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Sign In</title>
+</head>
+<style>
+      body {
+            margin: 0;
+            background: linear-gradient(to left bottom, lightblue, lightpink, lightblue);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: monospace;
+      }
+
+      .header {
+            width: 85%;
+            /* border: 2px solid white; */
+            flex: none;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+      }
+
+      .login {
+            font-size: 50px;
+            font-weight: 900;
+      }
+
+      .header p {
+            font-size: 18px;
+      }
+      .input input{
+            padding: 8px 13px;
+            border: none;
+            overflow: 0;
+            border-radius: 6px;
+     }
+     .fplogin{
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      text-align: center;
+      gap: 55px;
+     }
+     .fplogin p{
+      font-size: 17px;
+      font-weight: bold;
+      cursor: pointer;
+     }
+     .btn button{
+      padding: 6px 13px;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      background-color: red;
+      color: white;
+     }
+</style>
+
+<body>
+      <div class="header">
+            <h1 class="login">LOGIN</h1>
+            <p>Please enter Your login and password! </p>
+
+            <div class="input">
+                  <input type="text" placeholder="Enter Email" required>
+                  <input type="number" placeholder="password" required>
+            </div>
+
+            <div class="fplogin">
+                  <div>
+                        <p>Forgot password?</p>
+                  </div>
+                  <div class="btn">
+                       <a href="index.html"> <button>Login</button></a>
+                  </div>
+            </div>
+
+
+      </div>
+</body>
+
+</html>
